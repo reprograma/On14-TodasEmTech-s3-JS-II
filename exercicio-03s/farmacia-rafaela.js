@@ -22,7 +22,6 @@ function comprar() {
     }
 
     if (carrinhoCompras.indexOf(produtoDesejado.value) != -1 && contador%2 != 0) {
-        alert(contador);
         total -= 5.00; 
     }
     carrinhoCompras.push(produtoDesejado.value); 
