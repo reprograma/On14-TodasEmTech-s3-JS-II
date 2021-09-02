@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(105, 206, 206);
+    background: url("https://gestaodeclientes.com.br/wp-content/uploads/2020/10/05.11-2500m-supermercado-scaled-1.jpg");
+}
+
+h1{
+    text-shadow: 0.01em 0.1em rgb(5, 5, 5);
+    color: #fff;
+    text-transform: uppercase;
+    font-family: fantasy;
+    font-style: oblique;
+    font-weight: lighter;
+    font-size: 300%;
+    text-align: center;
+    background-color:rgba(144, 110, 54, 0.507);
+}
+
+
+.listaCompras{
+
+    background-color: #0e40e2;
+    width: 200px;
+    height: 300px;
+    margin: auto;
+    border: 10px solid rgba(248, 248, 248, 0.692);
+    padding: 12px 18px 6px;
+    color: #ffffff;
+}
+
+ul li{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 4px;
+}

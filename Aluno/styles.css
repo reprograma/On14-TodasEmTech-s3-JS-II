@@ -1,0 +1,19 @@
+body {
+    background: url("https://www.superprof.com.br/blog/wp-content/uploads/2019/05/melhores-musicas-em-italiano.jpg");
+}
+
+#blocao{
+    background-color: #7ab6e7;
+    width: 340px;
+    height: 400px;
+    margin: auto;
+    border: 10px solid rgba(248, 248, 248, 0.692);
+    padding: 12px 18px 6px;
+    color: #ffffff;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
