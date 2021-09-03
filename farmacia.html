@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia JS</title>
+</head>
+<body>
+    
+    <script>
+
+        let valor1 = Number(prompt('Digite o valor do primeiro produto:'));
+        let valor2 = Number(prompt('Digite o valor do segundo produto: '));
+        console.log(valor1, valor2)
+
+        function promo(){
+            let valorTotal = 0;
+            if(valor1 == valor2){
+                valorTotal = (valor1 + valor2) - 5
+                alert('Você ganhou um desconto de R$5,00. O valor total da compra é de R$ ' + valorTotal +',00.')
+            }else{
+                valorTotal = (valor1 + valor2)
+                alert('O valor total da compra é de R$ ' + valorTotal +',00.')
+            }
+        }
+
+        promo()
+    </script>
+</body>
+</html>

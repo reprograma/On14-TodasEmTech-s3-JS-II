@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farmácia JS</title>
+</head>
+<body>
+
+<script>
+// criar produtos 
+// criar função promoção
+// somar o valor total dos prods
+// verificar se prods são iguais
+// cada comparação igual tira -5 do valor total
+
+
+var produto1 = 10
+var produto2 = 20
+var produto3 = 30
+var produto4 = 40
+var valorTotal = 0
+
+function promo(prodA,prodB,prodC,prodD){
+    
+    valorTotal = (prodA + prodB + prodC + prodD)
+    
+    if(prodA == prodB || prodA == prodC || prodA == prodD){
+        valorTotal -= 5
+        if(prodA == prodB || prodA == prodC || prodA == prodD){
+            valorTotal = valorTotal
+        }
+        
+    }
+    
+    if(prodB == prodC || prodB == prodD){
+        valorTotal -= 5
+        if(prodB == prodC || prodB == prodD){
+            valorTotal = valorTotal
+        }
+    }
+    
+    if(prodC == prodD){
+        valorTotal -= 5
+    }
+    console.log(valorTotal)
+}
+
+
+promo(produto1,produto2,produto1,produto4) 
+
+// ERRO: Se 3 ou mais produtos forem iguais o calculo do valor total é incorreto. Cada condição é verificadas apenas uma vez.
+// Sugestão: Criar lista de produtos e introduzir loop (material não estudado em aula).
+</script>    
+</body>
+</html>
